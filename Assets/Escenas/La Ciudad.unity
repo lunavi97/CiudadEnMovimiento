@@ -2687,6 +2687,7 @@ GameObject:
   - component: {fileID: 606737203}
   - component: {fileID: 606737202}
   - component: {fileID: 606737204}
+  - component: {fileID: 606737205}
   m_Layer: 0
   m_Name: Tiempo
   m_TagString: Untagged
@@ -2731,6 +2732,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escalaTiempo: 1
+--- !u!114 &606737205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606737201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e883a61fe056e84a9817fe80084bcb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoPasado: 0
 --- !u!4 &610526868 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 832783ac41f2d70468c4995bebfabfb7, type: 2}
